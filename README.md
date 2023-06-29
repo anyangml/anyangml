@@ -41,5 +41,12 @@
   </a>
 </div>
 
+###
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/anyangml/anyangml/output/snake.svg" alt="Snake animation" />
+
+###
 
 
