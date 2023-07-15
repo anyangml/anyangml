@@ -1,8 +1,8 @@
 name: Generate snake animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+#   schedule: # execute every 12 hours
+#     - cron: "* */12 * * *"
 
   workflow_dispatch:
 
@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: generate snake.svg
-        uses: milaabl/snk-fix-build-error/svg-only@main
+        uses: Platane/snk/svg-only@v2
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg
